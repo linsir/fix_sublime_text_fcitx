@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Name=Sublime Text 2
+GenericName=Text Editor
+
+Exec=bash -c 'LD_PRELOAD=/usr/lib/libsublime_imfix.so /opt/sublime-text-2/sublime_text' %F
+Terminal=false
+Icon=/opt/sublime-text-2/Icon/48x48/sublime_text.png
+Type=Application
+Categories=TextEditor;IDE;Development
+X-Ayatana-Desktop-Shortcuts=NewWindow
+
+[NewWindow Shortcut Group]
+Name=New Window
+Exec=bash -c 'LD_PRELOAD=/usr/lib/libsublime_imfix.so /opt/sublime-text-2/sublime_text' --new-window
+TargetEnvironment=Unity
