@@ -1,9 +1,10 @@
-# fix_sublime_text_with_fcitx
+## fix_sublime_text_with_fcitx
+sublime_text 中文输入
 
-For Sublime_text3
+- OS: Kali Linux 2.0
 
-OS: Kali Linux 2.0
+- fcitx version: 4.2.8.5
 
-fcitx version: 4.2.8.5
+### usage:
 
-usage: chmod +x install_sublime_text_with_fix_im.sh && bash install_sublime_text_with_fix_im.sh
+    chmod +x install_sublime_text_with_fix_im.sh && bash install_sublime_text_with_fix_im.sh
